@@ -13395,3 +13395,375 @@ input[type="number"] {
     opacity: 0.9;
   }
 }
+@media screen and (max-width: 1600px) {
+  .section-search {
+      background-position: right center;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .breadcrumb-bar .container-fluid, .container {
+      max-width: 1480px;
+  }
+}
+.section-search {
+  background-image: url('../img/Hopsital\ Front\ Elevation.jpg'); 
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .section-search {
+      height: 70vh; 
+  }
+}
+
+@media (max-width: 480px) {
+  .section-search {
+      height: 50vh; 
+  }
+}
+.front-img {
+  position: relative; /* Ensures that the div can be positioned correctly */
+  height: 100vh; /* Makes the div's height equal to the viewport height */
+  width: 100vw; /* Makes the div's width equal to the viewport width */
+  overflow: hidden; /* Prevents scrolling */
+}
+
+.front-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%; /* Ensures the image fits the full width of the viewport */
+  height: auto; /* Maintains the image's aspect ratio */
+  transform: translate(-50%, -50%); /* Centers the image */
+}
+
+
+.banner-wrapper {
+  position: relative;
+  z-index: 1;
+  max-width: 1480px;
+  width: 100%;
+}
+.search-box {
+  display: table;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .mb-md-4 {
+      margin-bottom: 1.5rem !important;
+  }
+}
+.banner-wrapper .banner-header h1 {
+  margin: 4px auto 10px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #003a70;
+}
+.search-box>form {
+  padding: 15px;
+  display: flex;
+}
+.search-box form {
+background-color: #fff;
+border-radius: 15px;
+box-shadow: 0 0 0 10px rgba(255, 255, 255, .2);
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.search-box .search-location {
+  margin-right: 12px;
+  position: relative;
+  width: 320px;
+}
+
+.fa-sr-only, .fa-sr-only-focusable:not(:focus), .sr-only, .sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+select.form-control {
+  appearance: auto;
+}
+.form-control {
+  border-color: #dcdcdc;
+  color: #000;
+  font-size: 14px;
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.search-box .search-location {
+  margin-right: 12px;
+  position: relative;
+  width: 320px;
+}
+select.form-control {
+  appearance: auto;
+}
+.justify-content-center {
+justify-content: center !important;
+}
+@media (min-width: 1400px) {
+.col-xxl-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+}
+@media (min-width: 768px) {
+.mt-md-4 {
+    margin-top: 1.5rem !important;
+}
+}
+@media (min-width: 1200px) {
+.row-cols-xl-6>* {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+}
+}
+.boxx {
+background: #fff;
+border-radius: 20px;
+padding: 15px 15px 25px;
+text-align: center;
+height: 100%;
+margin: 0;
+overflow: hidden;
+position: relative;
+font-weight: 600;
+}
+.boxx a {
+color: var(--primary-color);
+display: block;
+}
+.boxx figure {
+width: 70px;
+height: 70px;
+margin: 10px auto 20px;
+background: #f0f0f0;
+padding: 15px;
+border-radius: 50%;
+overflow: hidden;
+}
+.boxx a span, #btn-orig, .doc_appoint_form .btn-readmore i, .doc_bx .info p, .hospital-detail-section .offer_bx .package-content h5, .patient-details-info p, .clini-infos ul {
+font-size: 14px;
+}
+.section-specialties {
+background: #edf7ff;
+position: relative;
+z-index: 1;
+padding: 0;
+}
+@media screen and (min-width: 1500px) {
+.breadcrumb-bar .container-fluid, .container {
+    max-width: 1480px;
+}
+}
+.home-tabs {
+  padding: 40px calc(var(--bs-gutter-x)* .5) 40px 30px;
+}
+.home-tabs .nav-tabs {
+  border: none;
+  margin-bottom: -20px;
+}
+.home-tabs .nav-tabs .nav-item {
+  width: 50%;
+  text-align: center;
+}
+.home-tabs .nav-tabs .nav-link.active {
+  color: #fff;
+  background: var(--orange-bg);
+}
+.home-tabs .nav-tabs .nav-link.active figure {
+  background: rgba(255, 255, 255, 0.3);
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.home-tabs .nav-tabs .nav-item {
+  width: 50%;
+  text-align: center;
+}
+.home-tabs .nav-tabs .nav-link {
+  margin: 0;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 20px;
+  width: 100%;
+  padding: 16px 0 34px;
+  transition: none;
+  border-radius: 20px 20px 0 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-tabs .nav-tabs .nav-link figure {
+    display: flex;
+    width: 54px;
+    height: 54px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 45px;
+    margin-bottom: 0;
+}
+.home-tabs .tab-content {
+  z-index: 1;
+  position: relative;
+}
+.home-tabs .tab-content>div {
+  border-radius: 20px;
+  padding: 24px;
+  background: #fff;
+  box-shadow: 0 0 35px rgba(0, 0, 0, .07);
+}
+@media (min-width: 576px) {
+  .g-sm-3, .gy-sm-3 {
+      --bs-gutter-y: 1rem;
+  }
+}
+@media (min-width: 1400px) {
+  .row-cols-xxl-3>* {
+      flex: 0 0 auto;
+      width: 33.3333333333%;
+  }
+}
+.home-tabs .hme-tb-bx {
+  background: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid var(--orange-bg);
+  display: block;
+}
+.home-tabs .hme-tb-bx figure {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: #a2cff0;
+  border-radius: 85px;
+}
+.home-tabs .hme-tb-bx p {
+  font-weight: 500;
+  font-size: 13px;
+  color: #111;
+}
+.align-items-center {
+  align-items: center !important;
+}
+@media (min-width: 1200px) {
+  .pe-xl-5 {
+      padding-right: 3rem !important;
+  }
+}
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.year_phone {
+  border-top: 2px solid #ececec;
+  margin-top: 25px;
+  padding-top: 25px;
+  display: flex;
+}
+.year_phone .exp {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--primary-color);
+  display: flex;
+  line-height: 1.4;
+  padding-right: 20px;
+  border-right: 2px solid #ececec;
+  margin-right: 20px;
+}
+.year_phone .exp span {
+  margin-left: 20px;
+  color: #4c4d56;
+  font-size: 20px;
+  font-weight: 600;
+}
+.year_phone .exp span span {
+  margin: 0;
+  display: block;
+}
+.year_phone .phone {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.year_phone .phone span {
+  display: block;
+  font-size: 15px;
+  color: #4c4d56;
+  font-weight: 500;
+}
+.btn-readmore-orange.section-btn, .btn-readmore.section-btn {
+  padding: 0 45px;
+  line-height: 50px;
+  font-size: 17px;
+  font-weight: 500;
+}
+@media (min-width: 992px) {
+  .mt-lg-0 {
+      margin-top: 0 !important;
+  }
+}
+@media (min-width: 576px) {
+  .d-sm-block {
+      display: block !important;
+  }
+}
+.bring_img figure {
+  background: #f0f0f0;
+  border-radius: 25px;
+  margin-right: 20px;
+  overflow: hidden;
+  margin-top: 20px;
+  width: calc(50% - 10px);
+  float: left;
+}
+.bring_img figure.img2 {
+  margin: 60px 0 0;
+}
+.front-img img{
+  border-radius: 10px ;
+}
