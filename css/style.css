@@ -13407,13 +13407,13 @@ input[type="number"] {
 }
 .section-search {
   background-image: url('../img/Hopsital\ Front\ Elevation.jpg'); 
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */
+  /* height: 100vh; */
   margin: 0;
-  padding: 0;
+  padding: 100px 0px;
 }
 
 @media (max-width: 768px) {
