@@ -13410,8 +13410,6 @@ input[type="number"] {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -13427,21 +13425,7 @@ input[type="number"] {
       height: 50vh; 
   }
 }
-.front-img {
-  position: relative; /* Ensures that the div can be positioned correctly */
-  height: 100vh; /* Makes the div's height equal to the viewport height */
-  width: 100vw; /* Makes the div's width equal to the viewport width */
-  overflow: hidden; /* Prevents scrolling */
-}
 
-.front-img img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%; /* Ensures the image fits the full width of the viewport */
-  height: auto; /* Maintains the image's aspect ratio */
-  transform: translate(-50%, -50%); /* Centers the image */
-}
 
 
 .banner-wrapper {
